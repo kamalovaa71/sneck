@@ -1,0 +1,82 @@
+.products_item {
+    padding: 20px 30px 30px 30px;
+    border-radius: 40px;
+    border: 1px solid #F3F3F3;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.products_item p {
+    color: #232323;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 150px;
+}
+
+.price_txt span {
+    color: #BDBDBD;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.price_txt p {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.price_txt {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    width: 120px;
+}
+
+.price {
+    margin-top: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.products_item:hover {
+    border: 1px solid #F8F8F8;
+    background: #FFF;
+    box-shadow: 0px 14px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.like_fav {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+.plus {
+    background-image: url(../../../public/product/plus.svg);
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.plus:hover {
+    background-image: url(../../../public/product/likehov.svg);
+}
+
+.like_fav {
+    background-image: url(../../../public/product/likhov.svg);
+    width: 32px;
+    height: 32px;
+
+    cursor: pointer;
+}

@@ -1,0 +1,86 @@
+.modal {
+    position: fixed;
+    background: #00000085;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    position: fixed;
+    display: none;
+    cursor: pointer;
+}
+
+.modal_block {
+    position: fixed;
+    right: -100%;
+    top: 0;
+    width: 385px;
+    height: 100%;
+    background-color: white;
+    opacity: 1;
+    z-index: 1000000;
+    padding: 30px;
+}
+
+.modal_block h1 {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.modal_action_block {
+    position: absolute;
+    bottom: 30px;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.modal_stroke {
+    display: flex;
+    width: 100%;
+}
+
+.modal_stroke p {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.modal_stroke span {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.dashed {
+    width: 100%;
+    border-bottom: 1px dashed #DFDFDF;
+}
+
+.basket_btn {
+    width: 100%;
+    padding: 18px;
+    border-radius: 18px;
+    background: #9DD458;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: 0px;
+    cursor: pointer;
+}

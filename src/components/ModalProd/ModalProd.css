@@ -1,0 +1,43 @@
+.basket_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border: 1px solid #F3F3F3;
+    background: #FFF;
+    gap: 25px;
+    padding: 25px;  
+}
+
+.basket_item img {
+    width: 70px;
+    height: 70px;
+}
+
+.close img {
+    width: 32px;
+    height: 32px;
+}
+
+.priceM p {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.priceM span {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.priceM{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 8px;
+}
